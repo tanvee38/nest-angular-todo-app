@@ -1,0 +1,57 @@
+# Node.js
+node_modules/
+dist/
+.cache/
+.tmp/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+logs/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.development
+.env.local
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Build directory
+dist/
+
+# Optional: Ignore coverage reports (if you are using a testing tool like Jest)
+coverage/
+
+# Optional: Ignore the Docker-related files if you use Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+.docker
+
+# Optional: Ignore the .next directory for Next.js (if used in the project)
+.next/
+
+# Optional: Ignore ESLint cache
+.eslintcache
+
+# Ignore Jest cache and coverage
+.jest/
